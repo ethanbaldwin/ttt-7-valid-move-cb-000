@@ -1,4 +1,4 @@
-code your #valid_move? method here
+# code your #valid_move? method here
 def valid_move?(board, index)
   position_taken = position_taken?(board, index)
   if (position_taken == false) && (9>index>-1)
